@@ -40,7 +40,6 @@ def main():
     print("Fun Fact Speaker is running... (Ctrl+C to quit)")
 
     music.music_set_volume(100)
-    tts.lang("en-US")
 
     # Start the fun fact loop in a background thread
     t = threading.Thread(target=fun_fact_loop, daemon=True)
