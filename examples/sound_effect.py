@@ -19,7 +19,7 @@ def main():
     print(manual)
 
     flag_bgm = False
-    music.music_set_volume(20)
+    music.music_set_volume(100)
     tts.lang("en-US")
 
     try:
